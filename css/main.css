@@ -105,6 +105,42 @@ input, select {vertical-align: middle;}
 
 /* ----- MAIN CSS ----- */
 
+body {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.mail {
+	background: #343433 url(../img/mail.png) no-repeat center;
+	width: 52px;
+	height: 46px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.mail:hover {
+    background-color: #807474;
+}
+
+.mail-block {
+	background: #ddd;
+	padding: 10px 14px;
+	margin-top: 46px;
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+}
+
+label, input {
+    display: block;
+}
+
+.button {
+    margin-top: 10px;
+}
+
 .logo {
     background: url(../img/webato.png) no-repeat;
     width: 837px;
