@@ -103,6 +103,8 @@ input, select {vertical-align: middle;}
 
 .clearfix:after {clear: both;}
 
+:focus {outline: none;}
+
 /* ----- MAIN CSS ----- */
 
 body {
@@ -126,7 +128,7 @@ body {
 
 .mail-block {
 	background: #ddd;
-	padding: 10px 14px;
+	padding: 10px;
 	margin-top: 46px;
 	display: inline-block;
 	position: relative;
@@ -137,8 +139,24 @@ label, input {
     display: block;
 }
 
+label {
+    margin-bottom: 5px;
+}
+
+input[type=text], input[type=password] {
+    border: 0;
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+}
+
 .button {
-    margin-top: 10px;
+    border: 0;
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: inline-block;
 }
 
 .logo {
